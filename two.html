@@ -1,44 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:width="http://www.w3.org/1999/xhtml" xmlns:height="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
-    <title>Thera Friend</title>
-    <link rel="stylesheet" href="two.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="two.css">
+    <title>Thera Friend</title>
 </head>
 <body>
 <header>
-    <nav>
-        <ul>
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="about.html">ABOUT</a></li>
-            <li><a href="inspiration.html">INSPIRATION</a></li>
-            <li><a href="contactus.html">CONTACT US</a></li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white justify-content-center">
+        <a class="navbar-brand" href="#">Thera Friend</a>
+            <ul class="nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inspriration</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up</a>
+                </li>
+            </ul>
     </nav>
 </header>
 <main>
     <section class="home">
-        <div><img src="images/logo white.png" alt="woman sitting"></div>
-        <h1>Relationships that promote a better you</h1>
-    </section>
-    <section class="second">
-        <h2>We help creatives share their passion through visual storytelling</h2>
-        <div class="container-parent">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4"><img src="https://cdn.pixabay.com/photo/2016/03/20/00/15/suicide-1267709_1280.jpg" alt="red sun" width="300" height="200"></div>
-                    <div class="col-4"><img src="https://cdn.pixabay.com/photo/2017/09/01/21/53/blue-2705642_1280.jpg" alt="blue woman" width="300" height="200"></div>
-                    <div class="col-4"><img src="https://cdn.pixabay.com/photo/2014/07/16/05/18/beach-394503_1280.jpg" alt="green leaf" width="300" height="200"></div>
-                </div>
-                <div class="row">
-                    <div class="col-4"><img src="https://cdn.pixabay.com/photo/2015/12/08/00/30/window-view-1081788_1280.jpg" alt="window sitting" width="300" height="200"></div>
-                    <div class="col-4"><img src="https://cdn.pixabay.com/photo/2017/07/31/23/45/flowers-2562079_1280.jpg" alt="blow flowers" width="300" height="200"></div>
-                    <div class="col-4"><img src="https://cdn.pixabay.com/photo/2016/10/18/08/13/travel-1749508_1280.jpg" alt="blue lake" width="300" height="200"></div>
-                </div>
-            </div>
+        <div class="container">
+            <img src="images/logo white.png" class="img-fluid" alt="white logo" width="100" height="100">
         </div>
     </section>
+    <section class="second">
+
+    </section>
 </main>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
